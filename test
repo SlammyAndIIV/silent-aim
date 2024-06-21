@@ -36,11 +36,11 @@ local tableinsert = table.insert
 -- // Silent Aim Vars
 getgenv().Aiming = {
     Enabled = true,
-    ShowFOV = false,
-    FOVSides = 26,
+    ShowFOV = true,
+    FOVSides = 100,
     FOVColour = Color3fromRGB(111, 0, 0),
     VisibleCheck = true,
-    FOV = 30,
+    FOV = 100,
     HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
